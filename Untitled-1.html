@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            width: 100px;
+            height: 30px;
+        }
+        #b{
+            padding:0;
+            width: 350px;
+            height: 30px;
+        }
+        #a{
+            padding:0;
+            width: 112px;
+            height: 30px;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>제목셀</th>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <caption>
+            <strong>Modern Browser</strong>
+            <p>국내에서 자주 사용하는 모던 브라우저</p>
+        </caption>
+        <tr>
+            <th>이름</th>
+            <td><input id="a" type="text"></td>
+            <th>연락처</th>>
+            <td><input id="a" type="text"></td>
+        </tr>
+        <tr>
+            <th>주소</th>
+            <td colspan="3"><input id="b" type="text"></td>
+        </tr>
+        <tr>
+            <th>자기소개</th>
+            <td colspan="3"><input id="b" type="text"></td>
+        </tr>
+    </table>
+    <p id ="summary">다음 표는 HTML5를 지원하는 모던을 정리한 것입니다. 최신 버전 일수록 HTML5를 좀 더 많이 지원하기 때문에 최신 버전을 다운로하는 것이 좋습니다.</p>
+    <table border="1" aria-describedby="summary">
+        <caption>Modern Browser</caption>
+        <tr>
+            <th>브라우저</th>
+            <th>제조업체</th>
+            <th>다운로드</th>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>colgroup 연습</caption>
+            <colgroup>
+                <col span="2" style="background-color:blue;">
+                <col span="2" style="background-color:yellow;">
+            </colgroup>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+    </table>
+    <p></p>
+    <table >
+        <thead>
+            <tr>
+                <th>출신학교</th>
+                <th>전공</th>
+                <th>기간</th>
+                <th>졸업구분</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ㅇㅇㅇ고등학교</td>
+                <td> (해당사항 없음)</td>
+                <td>2001.3 ~ 2004.2</td>
+                <td>졸업</td>
+            </tr>
+            <tr>
+                <td>ㅁㅁ대학교</td>
+                <td>컴퓨터공학</td>
+                <td>2004.3 ~ 2008.2</td>
+                <td>졸업</td>
+            </tr>
+        </tbody>
+    </table>
+    <label><input type="date" id="start"></label>
+    <label><input type="date" id="end"></label>
+    <a href="http://naver.com" target="_blank">네이버</a>
+
+    <iframe src="file:///C:/Users/user/Desktop/%EB%B0%B1%EC%97%85/html/Untitled-1.html" frameborder="1" width="600" height="400"></iframe>
+    <a href="http://naver.com" target="_top">도서 상세 보기</a>
+</body>
+</html>

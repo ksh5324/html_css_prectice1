@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<ul>
+	<li>하루에 밥 세끼 먹을 것</li>
+	<li>하루에 8시간 이상 잘것</li>
+	<li>밥은 하루에 2시간 이상 먹을 것</li>
+	<li>일은 6시간 이하로 할 것</li>
+	</ul>
+	<input id="noti" type="checkbox" value="1"><br>
+	<input type="button" class="submit" value="확인">
+<script>
+$(".submit").click(function(){
+var chk=$("input[id=noti]").is(":checked");
+if(!chk){
+alert("약관 동의가 필요 함");
+}
+else{
+alert("OK");
+}
+})
+</script>
+</body>
+</html>
