@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <style>
+      p {
+        font-family: Consolas;
+        font-size: 16px;
+      }
+      .t {
+        font-weight: bold;
+        color: #009688;
+      }
+      .a {
+        white-space: normal; /* 여러개의 공백을 하나로 표시 */
+      }
+      .b {
+        white-space: nowrap; /* 여러개의 공백을 하나로 표시, 너비를 넘어가는 내용은 줄을 바꾸지않고 계속 한줄로 표시 */
+      }
+      .c {
+        white-space: pre; /* 여러개의 공백을 그대로 표시, 줄을 바꾸지 않고 계속 한줄로 표시 */
+      }
+      .d {
+        white-space: pre-wrap; /* 여러개의 공백을 하나로 표시, 너비를 넘어가면 자동 줄바꿈 */
+      }
+      .e {
+        white-space: pre-line;/* 여러개의 공백을 그대로 표시, 너비를 넘어가면 자동 줄바꿈 */
+      }
+    </style>
+  </head>
+  <body>
+    <p class="t">white-space: normal;</p>
+    <p class="a">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nunc viverra lectus in nisl convallis, id mattis tortor ultrices. Quisque a justo non nisl maximus pretium quis sit amet tortor.</p>
+    <p class="t">white-space: nowrap;</p>
+    <p class="b">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nunc viverra lectus in nisl convallis, id mattis tortor ultrices. Quisque a justo non nisl maximus pretium quis sit amet tortor.</p>
+    <p class="t">white-space: pre;</p>
+    <p class="c">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nunc viverra lectus in nisl convallis, id mattis tortor ultrices. Quisque a justo non nisl maximus pretium quis sit amet tortor.</p>
+    <p class="t">white-space: pre-wrap;</p>
+    <p class="d">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nunc viverra lectus in nisl convallis, id mattis tortor ultrices. Quisque a justo non nisl maximus pretium quis sit amet tortor.</p>
+    <p class="t">white-space: pre-line;</p>
+    <p class="e">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nunc viverra lectus in nisl convallis, id mattis tortor ultrices. Quisque a justo non nisl maximus pretium quis sit amet tortor.</p>
+  </body>
+</html>
