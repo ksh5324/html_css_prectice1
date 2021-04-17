@@ -1,0 +1,10 @@
+.sqbullet{
+    list-style-type:square;
+}
+.nobullet{
+    list-style-type:none;
+}
+/* disc: 채운 원
+   circle: 빈 원
+   square: 채운 사각형
+   none: 볼릿 없애기 */
