@@ -1,0 +1,14 @@
+.round1{
+    border: 5px solid blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.round2{
+    background: #0c78c8;
+    border-radius: 20px 70px;
+    width: 200px;
+    height: 200px;
+}
