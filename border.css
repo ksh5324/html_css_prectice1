@@ -1,0 +1,8 @@
+h1{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ccc;
+}
+p{
+    padding: 10px;
+    border:2px dotted blue;
+}

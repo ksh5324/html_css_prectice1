@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border-width: 5px;
+}
+.box1{border-style: solid; border-width: 2px;}
+.box2{border-style: dotted; border-width: thick thin;}
+.box3{border-style: dashed; border-width: 5px 10px 15px 20px;}
+.box4{border-style: groove;}
+.box5{border-style: ridge;}
+.box6{border-style: outset;}

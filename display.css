@@ -1,0 +1,7 @@
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul{
+    background: skyblue;
+}
