@@ -1,0 +1,11 @@
+.multi{
+    border: 1px solid #ccc;
+    margin-left: auto; margin-right: auto;
+    padding: 20px;
+    width: 800px;
+    column-count: 3;
+    column-rule-color: #ccc;
+    column-rule-style: dotted;
+    column-width: 1px;
+    column-gap: 20px;
+}
