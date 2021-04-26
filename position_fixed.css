@@ -1,0 +1,30 @@
+#fx{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    height: 100px;
+    background: #272d7c;
+}
+#fx2{
+    position: fixed;
+    top: 105px;
+    right: 5px;
+    width: 100px;
+    height: 100px;
+    background: #ff6a00;
+}
+#fx3{
+    position: fixed;
+    top: 205px;
+    right: 5px;
+    width: 100px;
+    height: 100px;
+    background: #00ff2a;
+}
+#content{
+    width: 400px;
+}
+p{
+    line-height: 50px;
+}
