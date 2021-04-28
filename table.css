@@ -1,0 +1,8 @@
+.table1{
+    border: 1px solid black;
+}
+.table1 td{
+    border: 1px dotted hotpink;
+    padding: 10px;
+    text-align: center;
+}
