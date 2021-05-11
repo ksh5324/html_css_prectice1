@@ -1,0 +1,11 @@
+div{
+    background: red;
+    height: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+span{
+    background: red;
+}
