@@ -1,3 +1,4 @@
 meta는 빈 태그
 meta charset="utf-8" // 인코딩 방식 설정
-meta 
+meta http-equiv
+meta name content
