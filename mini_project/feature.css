@@ -1,0 +1,66 @@
+.feature{
+    color: tomato;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    margin-top: 0;
+    text-decoration: none;
+}
+nav li:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.join{
+    position: fixed;
+    top: 25px;
+    right: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: lightgray;
+    opacity: 1;
+    z-index: 1;
+    border: none;
+    border-radius: 20px;
+}
+.log_in{
+    position: fixed;
+    top: 25px;
+    right: 110px;
+    width: 100px;
+    height: 40px;
+    background-color: lightgray;
+    opacity: 1;
+    z-index: 1;
+    border: none;
+    border-radius: 20px;
+    
+}
+.log_in:hover, .join:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+.pencil_box{
+    height: 430px;
+}
+.pencil{
+    width: 200px;
+    animation: pencil 2s linear both;
+}
+@keyframes pencil{
+    0%{
+        position: relative;
+        top : 100%;
+        left: 0;
+    }
+    100%{
+        position: relative;
+        top: 100%;
+        left: 50%;
+    }
+}
