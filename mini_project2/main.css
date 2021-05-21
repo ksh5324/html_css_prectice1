@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    position: relative;
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 112, 50);
+    height: 100px;
+    z-index: 999;
+}
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 30px;
+    color: lightgray;
+    font-weight: 700;
+    font-size: 15px;
+}
+nav li:hover {
+    color: tomato;
+    cursor: pointer;
+    font-size: 18px;
+}
