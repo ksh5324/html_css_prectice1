@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,cAAc;CAQzB;;AAVD,AAGI,QAHI,CAGJ,KAAK,CAAA;EACD,OAAO,EAAE,IAAI;CAKhB;;AATL,AAKQ,QALA,CAGJ,KAAK,CAED,EAAE,CAAA;EACE,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,eAAe;CAC1B",
+    "sources": [
+        "scss_pra1.scss"
+    ],
+    "names": [],
+    "file": "scss_pra1.css"
+}

@@ -1,0 +1,10 @@
+.container{
+    $size: 100px;
+    border: 3px solid black;
+    .item{
+        width: $size;
+        height: $size;
+        background-color: tomato;
+        margin: 10px;
+    }
+}

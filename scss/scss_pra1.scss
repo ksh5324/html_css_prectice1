@@ -1,0 +1,11 @@
+.section{
+    width: 100%;
+    border: 3px dashed red;
+    .list{
+        padding: 20px;
+        li{
+            float: left;
+            border: 3px solid black;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.section {
+  width: 100%;
+  border: 3px dashed red;
+}
+
+.section .list {
+  padding: 20px;
+}
+
+.section .list li {
+  float: left;
+  border: 3px solid black;
+}
+/*# sourceMappingURL=scss_pra1.css.map */

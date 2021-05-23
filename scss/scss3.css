@@ -1,0 +1,12 @@
+.btn {
+  position: relative;
+}
+
+.btn.active {
+  color: red;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=scss3.css.map */

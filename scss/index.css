@@ -1,0 +1,11 @@
+.container {
+  border: 3px solid black;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin: 10px;
+}
+/*# sourceMappingURL=index.css.map */
