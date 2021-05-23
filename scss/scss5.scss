@@ -1,0 +1,15 @@
+.box1{
+    $color: #111;
+    background-color: $color;
+}
+// error
+// .box2{
+//     background-color: $color;
+// }
+.box3{
+    $color2: #111 !global; // 전역변수
+    background-color: $color2;
+}
+.box4{
+    background-color: $color2;
+}
