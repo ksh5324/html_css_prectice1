@@ -1,0 +1,16 @@
+.box {
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.box {
+  width: 200px;
+  margin-left: 200px;
+  background: #e96900 url("/assets/imagebg.jpg");
+}
+/*# sourceMappingURL=scss4.css.map */

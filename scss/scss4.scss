@@ -1,0 +1,26 @@
+.box{
+    font: {
+        weight: bold;
+        size: 10px;
+        family: sans-serif;
+    };
+    margin: {
+        top: 10px;
+        left: 20px;
+    };
+    padding: {
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+// 변수
+
+$color-primary: #e96900;
+$url-image: "/assets/image";
+$w: 200px;
+.box{
+    width: $w;
+    margin-left: $w;
+    background: $color-primary url($url-image+"bg.jpg");
+}

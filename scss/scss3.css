@@ -1,5 +1,5 @@
 .btn {
-  position: relative;
+  position: absolute;
 }
 
 .btn.active {
@@ -8,5 +8,17 @@
 
 .list li:last-child {
   margin-right: 0;
+}
+
+.fs-small {
+  font-size: 14px;
+}
+
+.fs-medium {
+  font-size: 16px;
+}
+
+.fs-large {
+  font-size: 18px;
 }
 /*# sourceMappingURL=scss3.css.map */
